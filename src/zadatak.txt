@@ -1,0 +1,21 @@
+1. U App.jsx renderati 2 komponenete: Header, Main
+2. Napravit stanje (state) u App.jsx
+3. Unutar Main-a imamo 2 komponete Home i About
+4. Prikazivati Komponente ovisno o stanju u App: state={page: "Home"}
+5. Stanje se mijenja iz Header-a
+6. Koristit iskljucivo klase
+
+
+Zadatak useState:
+        pocetno stanje:
+         ime: <ime>
+         
+         
+        onMouseOver:
+        prezime: <prezime>
+
+        onMouseOut:
+        ime: <ime>
+
+
+

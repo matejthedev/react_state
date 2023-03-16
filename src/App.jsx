@@ -2,10 +2,18 @@ import { useState } from 'react'
 import './App.css'
 import Header from './components/Header'
 import Main from './components/Main'
+import Counter from './components/Counter'
 
+<<<<<<< Updated upstream
 function App(){
   const [page, setPage] = useState("Home")
 
+=======
+function App() {
+
+  const  [page, setPage] = useState("Home");
+  
+>>>>>>> Stashed changes
   const pageHandler = () => {
     if (page === "Home") {
       setPage("About")
@@ -17,6 +25,10 @@ function App(){
     <div className="App">
       <Header pageHandler={pageHandler} page={page}/>
       <Main page={page}/>
+<<<<<<< Updated upstream
+=======
+      <Counter />
+>>>>>>> Stashed changes
     </div>
   )
 }
